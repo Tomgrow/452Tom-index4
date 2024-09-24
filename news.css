@@ -1,3 +1,4 @@
+// Student Name: [Tom Lin Yuzhe]
 body, html {
     margin: 0;
     padding: 0;
@@ -16,44 +17,44 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    flex-direction: column; /* 垂直堆叠 */
-    justify-content: center; /* 居中对齐 */
-    align-items: center; /* 居中对齐 */
+    flex-direction: column; /* Vertical stack */
+    justify-content: center; /* Center align */
+    align-items: center; /* Center align */
     box-sizing: border-box;
 }
 
 .logo-and-title {
     display: flex;
-    align-items: center; /* 垂直居中 */
+    align-items: center; /* Vertical centering */
 }
 
 .logo-and-title img {
-    width: 50px; /* 调整Logo大小 */
+    width: 50px; 
     height: auto;
     margin-right: 10px;
 }
 
 .site-title {
-    margin: 0; /* 移除默认的margin */
-    font-size: 2em; /* 调整标题大小 */
+    margin: 0; /* Remove the default margin */
+    font-size: 2em; 
 }
 
 .navbar {
-    display: flex; /* 使用Flex布局 */
-    justify-content: center; /* 居中对齐 */
-    width: 100%; /* 宽度100%，以适应不同屏幕尺寸 */
-    margin-top: 10px; /* 给导航栏添加一些顶部间距 */
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    margin-top: 10px; 
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* 确保列表项水平排列 */
+    display: flex; /* Make sure the list items are arranged horizontally */
 }
 
 .navbar li {
-    margin: 0 10px; /* 减少左右边距 */
+    margin: 0 10px; /* Reduce the left and right margins */
 }
 
 .navbar a {
@@ -69,8 +70,8 @@ header {
 
 .hero-image {
     width: 100%;
-    max-height: 300px; /* 根据需要调整 */
-    object-fit: cover; /* 保持原始纵横比填充容器 */
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 .description {
