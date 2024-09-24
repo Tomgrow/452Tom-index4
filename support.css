@@ -1,3 +1,4 @@
+// Student Name: [Tom Lin Yuzhe]
 body, html {
     margin: 0;
     padding: 0;
@@ -16,26 +17,26 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    flex-direction: column; /* 垂直堆叠 */
-    justify-content: center; /* 居中对齐 */
-    align-items: center; /* 居中对齐 */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     box-sizing: border-box;
 }
 
 
 .logo {
     display: flex;
-    align-items: center; /* 垂直居中 */
+    align-items: center; 
 }
 
 .logo img {
-    width: 50px; /* 调整Logo大小 */
+    width: 50px; 
     height: auto;
     margin-right: 10px;
 }
 
 .site-title {
-    margin: 0; /* 移除默认的margin */
+    margin: 0; 
 }
 
 .navbar {
@@ -67,8 +68,8 @@ header {
 
 .hero-image {
     width: 100%;
-    max-height: 300px; /* 根据需要调整 */
-    object-fit: cover; /* 保持原始纵横比填充容器 */
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 .description {
@@ -95,18 +96,18 @@ footer {
 .images-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* 允许在窄屏上换行 */
-    margin: 20px; /* 添加一些边距 */
+    flex-wrap: wrap; 
+    margin: 20px; 
 }
 
 .support-flowchart {
-    width: calc(50% - 20px); /* 减去两边的间距，确保两边有10px的间距 */
+    width: calc(50% - 20px); 
     height: auto;
-    max-height: 600px; /* 控制最大高度 */
+    max-height: 600px;
 }
 
 .new-image {
-    width: calc(50% + 20px); /* 加宽第二张图片，确保两边有10px的间距 */
+    width: calc(50% + 20px); 
     height: auto;
-    max-height: 600px; /* 控制最大高度 */
+    max-height: 600px; 
 }
