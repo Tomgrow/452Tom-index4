@@ -1,4 +1,4 @@
-
+// Student Name: [Tom Lin Yuzhe]
 body, html {
     margin: 0;
     padding: 0;
@@ -17,9 +17,9 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    flex-direction: column; /* 垂直堆叠 */
-    justify-content: center; /* 居中对齐 */
-    align-items: center; /* 居中对齐 */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ header {
 }
 
 .logo img {
-    width: 50px; /* 调整Logo大小 */
+    width: 50px;
     height: auto;
     margin-right: 10px;
 }
@@ -70,8 +70,8 @@ header {
 
 .hero-image {
     width: 100%;
-    max-height: 300px; /* 根据需要调整 */
-    object-fit: cover; /* 保持原始纵横比填充容器 */
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 .description {
@@ -196,10 +196,10 @@ footer {
     max-width: 600px;
 }
 .product {
-    /* 假设你需要增加一些内边距以便描述文字看起来更舒适 */
+  
     padding: 20px;
     background-color: #333;
     color: white;
     margin-bottom: 20px;
-    /* 如果需要，可以调整其他样式 */
+  
 }
